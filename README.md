@@ -55,8 +55,8 @@ Contributions are welcome! Open a PR with small, focused changes. Suggested cont
 
 ## License
 
-This project is open-source — add a LICENSE file if you want a specific license (MIT, Apache-2.0, etc.).
+This project is open-source 
 
 ---
 
-Made with 🦅 by the Eaglecraft team.
+
