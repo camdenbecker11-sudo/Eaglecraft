@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Eaglercraft Gallery — Eaglecraft repo</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Arial, sans-serif; line-height:1.5; padding:24px; max-width:900px; margin:auto }
+    h1{display:flex;align-items:center;gap:.5rem}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:16px}
+    figure{margin:0;border:1px solid #eee;padding:8px;background:#fff}
+    img{width:100%;height:auto;display:block}
+    figcaption{font-size:.9rem;color:#444;margin-top:.5rem}
+    .note{margin-top:18px;font-size:.9rem;color:#666}
+  </style>
+</head>
+<body>
+  <h1>Eaglercraft (hotlinked screenshots)</h1>
+  <p>This file collects a few representative screenshots of <strong>Eaglercraft</strong> (the browser-based Minecraft project) by hotlinking images hosted on the official site. Use these as visual references for the README or a demo page. If you want local copies, see the note at the bottom.</p>
+
+  <div class="grid">
+    <figure>
+      <a href="https://eaglercraft.com/" target="_blank" rel="noopener noreferrer">
+        <img src="https://eaglercraft.com/images/screenshots/ss1.png" alt="Eaglercraft screenshot 1">
+      </a>
+      <figcaption>Screenshot: Eaglercraft UI / world view — source: eaglercraft.com</figcaption>
+    </figure>
+
+    <figure>
+      <a href="https://eaglercraft.com/" target="_blank" rel="noopener noreferrer">
+        <img src="https://eaglercraft.com/images/screenshots/ss2.png" alt="Eaglercraft screenshot 2">
+      </a>
+      <figcaption>Screenshot: In-game scene — source: eaglercraft.com</figcaption>
+    </figure>
+
+    <figure>
+      <a href="https://eaglercraft.com/" target="_blank" rel="noopener noreferrer">
+        <img src="https://eaglercraft.com/images/screenshots/ss3.png" alt="Eaglercraft screenshot 3">
+      </a>
+      <figcaption>Screenshot: Multiplayer / server list — source: eaglercraft.com</figcaption>
+    </figure>
+  </div>
+
+  <p class="note">Attribution & licensing: images are hosted on eaglercraft.com; review their site for usage terms. If you prefer local files, download the images and place them under <code>assets/</code>, then update the <code>&lt;img&gt;</code> src attributes to point to the local paths.</p>
+
+  <p class="note">Quick commands to download locally (run in repo root):</p>
+  <pre class="note">mkdir -p assets && \
+curl -L -o assets/ss1.png https://eaglercraft.com/images/screenshots/ss1.png && \
+curl -L -o assets/ss2.png https://eaglercraft.com/images/screenshots/ss2.png && \
+curl -L -o assets/ss3.png https://eaglercraft.com/images/screenshots/ss3.png</pre>
+</body>
+</html>
